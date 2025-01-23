@@ -9,7 +9,7 @@ class teste {
         String name = scanner.nextLine();
         System.out.println("How old are u?: ");
         int idade = scanner.nextInt();
-        scanner.nextLine();
+        scanner.nextLine(); // i need use nextline after using int 
         System.out.println("what your favorite food?: ");
         String food = scanner.nextLine();
         System.out.println("name: "+ name + "\nidade: " + idade + "\nfavorite food: " + food);
