@@ -4,18 +4,14 @@ import java.util.Scanner;
 
 public class teste {
     public static void main(String[] args) {
-
-        Scanner scanner = new Scanner(System.in);
-        int num = 1;
+ int n = 9;
+ long factorial = 1;
+ for (int i = 1; i <= n; i++) {
+    factorial *= i;
+ }
+ System.out.println(factorial);
         
-        Double breadth = scanner.nextDouble();
-        Double height = scanner.nextDouble();
         
-        if(breadth < 0 || height < 0){
-            System.out.println("java.lang.Exception: Breadth and height must be positive");
-        } else {
-            System.out.println(breadth * height);
-        }
-        scanner.close();
+        // ideia um: tentar o valor com todos os outros correspondentes
 }
 }
